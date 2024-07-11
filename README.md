@@ -81,37 +81,37 @@ Este projeto foi desenvolvido por Júlio Caetano na disciplina de Tópicos Espec
 ## Instalação
 
 1. Clone o repositório para sua máquina local:
-   \`\`\`bash
+   \\\
    git clone https://github.com/JulioCaetanovds/WebApp_LaravelPHP.git
-   \`\`\`
+   \\\
 2. Entre no diretório do projeto:
-   \`\`\`bash
+   \\\
    cd nome-do-repositorio
-   \`\`\`
+   \\\
 3. Instale as dependências do Composer:
-   \`\`\`bash
+   \\\
    composer install
-   \`\`\`
+   \\\
 4. Instale as dependências do NPM:
-   \`\`\`bash
+   \\\
    npm install
-   \`\`\`
+   \\\
 5. Copie o arquivo \`.env.example\` para \`.env\` e configure suas variáveis de ambiente:
-   \`\`\`bash
+   \\\
    cp .env.example .env
-   \`\`\`
+   \\\
 6. Gere a chave da aplicação:
-   \`\`\`bash
+   \\\
    php artisan key:generate
-   \`\`\`
+   \\\
 7. Execute as migrações e seeders para criar e popular o banco de dados:
-   \`\`\`bash
+   \\\
    php artisan migrate --seed
-   \`\`\`
+   \\\
 8. Inicie o servidor de desenvolvimento:
-   \`\`\`bash
+   \\\
    php artisan serve
-   \`\`\`
+   \\\
 
 ## Uso
 
