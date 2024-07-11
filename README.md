@@ -5,69 +5,69 @@ Este projeto foi desenvolvido por Júlio Caetano na disciplina de Tópicos Espec
 ## Estrutura do Projeto
 
 - **app/Http/Controllers**
-  - \`AgendamentoController.php\`
-  - \`Auth\`
-  - \`CidadeController.php\`
-  - \`ClienteController.php\`
-  - \`Controller.php\`
-  - \`FuncionarioController.php\`
-  - \`HomeController.php\`
-  - \`TipoServicoController.php\`
-  - \`VeiculoController.php\`
+  - \AgendamentoController.php\
+  - \Auth\
+  - \CidadeController.php\
+  - \ClienteController.php\
+  - \Controller.php\
+  - \FuncionarioController.php\
+  - \HomeController.php\
+  - \TipoServicoController.php\
+  - \VeiculoController.php\
 
 - **app/Models**
-  - \`Agendamento.php\`
-  - \`Cidade.php\`
-  - \`Cliente.php\`
-  - \`Funcionario.php\`
-  - \`TipoServico.php\`
-  - \`User.php\`
-  - \`Veiculo.php\`
+  - \Agendamento.php\
+  - \Cidade.php\
+  - \Cliente.php\
+  - \Funcionario.php\
+  - \TipoServico.php\
+  - \User.php\
+  - \Veiculo.php\
 
 - **database/migrations**
-  - \`2014_10_12_000000_create_users_table.php\`
-  - \`2014_10_12_100000_create_password_resets_table.php\`
-  - \`2014_10_12_100000_create_password_reset_tokens_table.php\`
-  - \`2019_08_19_000000_create_failed_jobs_table.php\`
-  - \`2019_12_14_000001_create_personal_access_tokens_table.php\`
-  - \`2024_05_24_214110_create_clientes_table.php\`
-  - \`2024_05_24_214226_create_veiculos_table.php\`
-  - \`2024_06_10_225130_add_cliente_id_to_veiculos_table.php\`
-  - \`2024_06_11_194416_create_funcionarios_table.php\`
-  - \`2024_06_11_194426_create_cidades_table.php\`
-  - \`2024_06_11_194429_create_tipo_servicos_table.php\`
-  - \`2024_06_12_203747_add_cidade_id_to_clientes_table.php\`
-  - \`2024_06_14_174556_update_agendamento_table_v6.php\`
-  - \`2024_06_17_230323_remove_tipo_servico_from_agendamentos.php\`
+  - \2014_10_12_000000_create_users_table.php\
+  - \2014_10_12_100000_create_password_resets_table.php\
+  - \2014_10_12_100000_create_password_reset_tokens_table.php\
+  - \2019_08_19_000000_create_failed_jobs_table.php\
+  - \2019_12_14_000001_create_personal_access_tokens_table.php\
+  - \2024_05_24_214110_create_clientes_table.php\
+  - \2024_05_24_214226_create_veiculos_table.php\
+  - \2024_06_10_225130_add_cliente_id_to_veiculos_table.php\
+  - \2024_06_11_194416_create_funcionarios_table.php\
+  - \2024_06_11_194426_create_cidades_table.php\
+  - \2024_06_11_194429_create_tipo_servicos_table.php\
+  - \2024_06_12_203747_add_cidade_id_to_clientes_table.php\
+  - \2024_06_14_174556_update_agendamento_table_v6.php\
+  - \2024_06_17_230323_remove_tipo_servico_from_agendamentos.php\
 
 - **database/seeders**
-  - \`AgendamentosTableSeeder.php\`
-  - \`CidadesSeeder.php\`
-  - \`ClientesSeeder.php\`
-  - \`ClientesTableSeeder.php\`
-  - \`DatabaseSeeder.php\`
-  - \`FuncionariosSeeder.php\`
-  - \`TipoServicosSeeder.php\`
-  - \`VeiculosSeeder.php\`
-  - \`VeiculosTableSeeder.php\`
+  - \AgendamentosTableSeeder.php\
+  - \CidadesSeeder.php\
+  - \ClientesSeeder.php\
+  - \ClientesTableSeeder.php\
+  - \DatabaseSeeder.php\
+  - \FuncionariosSeeder.php\
+  - \TipoServicosSeeder.php\
+  - \VeiculosSeeder.php\
+  - \VeiculosTableSeeder.php\
 
 - **resources/views**
-  - \`agendamentos\`
-  - \`auth\`
-  - \`cidades\`
-  - \`clientes\`
-  - \`funcionarios\`
-  - \`home.blade.php\`
-  - \`layouts\`
-  - \`tipos-servico\`
-  - \`veiculos\`
-  - \`welcome.blade.php\`
+  - \agendamentos\
+  - \auth\
+  - \cidades\
+  - \clientes\
+  - \funcionarios\
+  - \home.blade.php\
+  - \layouts\
+  - \tipos-servico\
+  - \veiculos\
+  - \welcome.blade.php\
 
 - **routes/web.php**
-  - \`web.php\`
+  - \web.php\
 
 - **lavagem.sql**
-  - \`lavagem.sql\`
+  - \lavagem.sql\
 
 ## Funcionalidades
 
@@ -87,7 +87,7 @@ Este projeto foi desenvolvido por Júlio Caetano na disciplina de Tópicos Espec
 2. Entre no diretório do projeto:
    ```
    cd nome-do-repositorio
-   \\\
+   ```
 3. Instale as dependências do Composer:
    ```
    composer install
